@@ -2,7 +2,7 @@ name: form_autosave_kit
 description: >-
   Auto-save & crash-restore for any Flutter form — drop-in, zero boilerplate.
   Prevent data loss on background kills effortlessly.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/dev-ali2/form_autosave_kit
 repository: https://github.com/dev-ali2/form_autosave_kit
 issue_tracker: https://github.com/dev-ali2/form_autosave_kit/issues
