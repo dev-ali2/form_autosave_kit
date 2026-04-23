@@ -1,3 +1,4 @@
+
 # form_autosave_kit
 
 [![pub package](https://img.shields.io/pub/v/form_autosave_kit.svg)](https://pub.dev/packages/form_autosave_kit)
@@ -9,6 +10,10 @@ Auto-save & crash-restore for any Flutter form — drop-in, zero boilerplate.
 ## The Problem
 
 When users are filling out a long form, they may switch apps to copy a code or answer a message. If the OS kills your app in the background to reclaim memory, all of the user's entered data is gone when they return. `form_autosave_kit` elegantly solves this by automatically debouncing and persisting form states, allowing you to instantly restore the form.
+
+## Visual
+
+<img width="320" height="693" alt="ezgif-666f73ad94bdd545" src="https://github.com/user-attachments/assets/06061b83-7756-4594-902c-0d75714dc684" />
 
 ## Installation
 
