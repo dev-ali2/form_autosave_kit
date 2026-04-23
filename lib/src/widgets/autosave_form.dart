@@ -57,6 +57,9 @@ class AutosaveForm extends StatefulWidget {
 
 /// State for [AutosaveForm].
 class AutosaveFormState extends State<AutosaveForm> {
+  /// Creates the state for an [AutosaveForm].
+  AutosaveFormState();
+
   late final AutosaveStorage _storage;
   late final Debouncer _debouncer;
   final Map<String, dynamic> _fieldValues = {};

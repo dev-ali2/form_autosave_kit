@@ -1,5 +1,11 @@
 /// Abstract interface for autosave storage backends.
+///
+/// Implement this interface to provide custom storage backends for saving
+/// and restoring form field values.
 abstract class AutosaveStorage {
+  /// Creates an autosave storage backend.
+  AutosaveStorage();
+
   /// Write all field values for a form. [data] is keyed by fieldId.
   Future<void> write(String formId, Map<String, dynamic> data);
 
